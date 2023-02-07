@@ -1,0 +1,22 @@
+.sidebar {
+  font-family: var(--font-copy-main-family);
+  font-size: var(--font-copy-main-size);
+  height: 100vh;
+  width: 100vw;
+}
+
+.close {
+  align-items: flex-end;
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+
+  button {
+    all: unset;
+    box-sizing: border-box;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
