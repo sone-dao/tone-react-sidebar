@@ -1,6 +1,6 @@
 .sidebar {
-  background-color: var(--sidebar-background-color);
-  color: var(--sidebar-color);
+  background-color: rgba(var(--sidebar-background-color));
+  color: rgba(var(--sidebar-color));
   display: flex;
   flex-direction: column;
   position: absolute;
