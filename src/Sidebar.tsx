@@ -1,4 +1,6 @@
 import React from 'react'
+import NavMenu from './components/NavMenu'
+import UserInfo from './components/UserInfo'
 import styles from './Sidebar.module.scss'
 
 export interface ISidebarProps {}
@@ -12,6 +14,8 @@ const Sidebar: React.FC<ISidebarProps> = ({}) => {
       <div className={styles.close}>
         <button onClick={() => closeSidebar()}>❌</button>
       </div>
+      <UserInfo />
+      <NavMenu />
     </div>
   )
 }
