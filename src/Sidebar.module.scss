@@ -37,7 +37,15 @@
 }
 
 .user {
-  height: 7em;
+  height: 4em;
+
+  @media (min-width: 500px) {
+    display: none;
+  }
+}
+
+.search {
+  height: 4em;
 
   @media (min-width: 500px) {
     display: none;

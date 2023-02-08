@@ -1,5 +1,6 @@
 import React from 'react'
 import NavMenu from './components/NavMenu'
+import SearchInput from './components/SearchInputMobile'
 import UserInfo from './components/UserInfo'
 import styles from './Sidebar.module.scss'
 
@@ -15,6 +16,7 @@ const Sidebar: React.FC<ISidebarProps> = ({}) => {
         <button onClick={() => closeSidebar()}>❌</button>
       </div>
       <UserInfo />
+      <SearchInput />
       <NavMenu />
     </div>
   )
